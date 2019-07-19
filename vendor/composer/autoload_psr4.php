@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'luochanggui\\test_composer\\' => array($baseDir . '/src'),
 );
