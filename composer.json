@@ -1,0 +1,20 @@
+{
+    "name": "luochanggui/test_composer",
+    "description": "lcg first composer package",
+    "type": "tool",
+    "require": {
+        "php": "7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "luochanggui",
+            "email": "luochanggui@davdian.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "luochanggui\\test_composer": "src"
+        }
+    }
+}
